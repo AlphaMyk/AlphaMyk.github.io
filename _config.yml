@@ -16,9 +16,9 @@ google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
 # HTML Head #
 #############
 
-author: "Griff"
+author: "alphamyk"
 lang: "en"
-title: "Michael Griffith"
+title: "AlphaMyk"
 favicon: "/img/favicon.ico"
 description: "Site to play around with"
 keywords: "griffith, michael, griff, alphamyk"
@@ -29,7 +29,7 @@ keywords: "griffith, michael, griff, alphamyk"
 
 black-favicon: "/img/black-lab-glass.ico"
 background-img: "../img/intro-bg.jpg"
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/griff.jpg"
 
 ##############################
 # Dynamic Text on the header #
@@ -57,7 +57,7 @@ paginate: 5
 fb-share: True
 twitter-share: True
 reddit-share: True
-disqus-shortname: "griff"
+disqus-shortname: "AlphaMyk"
 
 ###############
 # Life Events #
@@ -78,7 +78,7 @@ career-img: "/img/career/default.png"
 # Contact layout #
 ##################
 
-email: "griff@psmg.co"
+email: "myk@alphamyk.com"
 
 ##################
 # Social Buttons #
