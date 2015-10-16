@@ -75,7 +75,7 @@ events:
 life-img: "/img/life/myk_icon.png"
 
 ##################
-# Contact layout #
+# Social layout #
 ##################
 
 email: "myk@alphamyk.com"
@@ -112,7 +112,7 @@ pages_list:
   About: 'about'
   Blog: 'blog'
   Life: 'life'
-  Contact: 'contact'
+  Social: 'social'
 
 # Pagination path
 paginate_path: "blog/page:num"
