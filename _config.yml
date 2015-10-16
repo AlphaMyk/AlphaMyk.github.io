@@ -1,125 +1,127 @@
-inc:
-  # Blog Information
-  title:        "Jekyll Incorporated"
-  subtitle:     "Modern Jekyll based blog for companies"
-  cover_image:  blog-cover.jpg
-  logo:         logo.png
-  
-  # Company information
-  company:      Incorporated
-  url:          http://sendtoinc.com/
-  facebook:     sendtoinc
-  twitter:      sendtoinc
-  gplus:        '101183822199340201470'
-  about_link:   https://sendtoinc.com/about/
-  
-  # Product Information
-  product_link: http://incorporated.sendtoinc.com/
-  tagline:      "Get a modern blog for your company"
-  
-  # Comments
-  disqus:
-    # Eg. "exampleblog" Set to false to disable comments
-    shortname:  false
-  
-  # Sharing settings
-  sharing:
-    twitter:    false
-    facebook:   false
-    gplus:      false
-    hn:         false
-    
-  
- # Analytics     
-  analytics:
-    google: false # Add tracking code in _includes/_google-analytics.html
-      
-      
-  # Google Fonts
-  # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
-  google_font: 'Droid+Sans:400,700'
-  
-  # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://incorporated.sendtoinc.com
-source:      .
-destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
-include:     ['.htaccess']
-exclude:     []
-timezone:    nil
+# Site settings
 
-# Show future posts
-future:      false
-show_drafts: nil
-limit_posts: 0
-pygments:    true
+url: "http://panossakkos.github.io"
 
-relative_permalinks: true
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
 
-permalink:     pretty
-paginate_path: 'page:num'
-paginate: 10
+baseurl: /personal-jekyll-theme
 
-markdown:      maruku
-markdown_ext:  markdown,mkd,mkdn,md
-textile_ext:   textile
+google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
 
-excerpt_separator: "<!-- more -->"
+#############
+# HTML Head #
+#############
 
-safe:        false
-host:        0.0.0.0
-port:        4000
-baseurl:     /
-lsi:         false
+author: "John Smith"
+lang: "en"
+title: "{ John Smith }"
+favicon: "/img/favicon.ico"
+description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
+keywords: "smith, jones, personal, jekyll, theme"
 
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
+################
+# Intro layout #
+################
 
-rdiscount:
-  extensions: []
+black-favicon: "/img/black-lab-glass.ico"
+background-img: "../img/intro-bg.jpg"
+me-img: "/img/jetpacktocat.png"
 
-redcarpet:
-  extensions: []
+##############################
+# Dynamic Text on the header #
+##############################
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  use_coderay: false
+dynamic-typing: True
+shuffle: True	# Shuffle the lines.
+loop: True
+loop-count:	False # Set False for infinite loop, or set any number for finite loop.
+type-speed:	10		# Default 10
+start-delay: 200	# Default 200
+delete-delay: 5000	# Default 5000
+lines:			# You can add HTML Tags in the Text
+  - text: "The lower you fall, the higher you'll fly."
+  - text: "Where’s your will to be weird?"
 
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
+########
+# Blog #
+########
 
-redcloth:
-  hard_breaks: true
+post-preview-words: 128
 
-#
-# jekyll-assets: see more at https://github.com/ixti/jekyll-assets
-#
-assets:
+paginate: 5
 
-  dirname: assets
-  baseurl: /assets/
-  sources:
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/images
-  js_compressor: uglifier
-  css_compressor: sass
-  cachebust: none
-  cache: false
-  gzip: [ text/css, application/javascript ]
-  debug: false
+fb-share: True
+twitter-share: True
+reddit-share: True
+disqus-shortname: "panossakkos"
+
+###############
+# Life Events #
+###############
+
+events:
+  - image: "/img/career/spidertocat.png"
+    date: "September 2013 - Today"
+    description: "Saving the neighborhood!"
+  - image: "/img/career/baracktocat.jpg"
+    date: "September 2007 - August 2013"
+    description: "Started coding"
+
+# First image of the Career timeline
+career-img: "/img/career/default.png"
+
+##################
+# Contact layout #
+##################
+
+email: "your@email.here"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "facebook"
+    url: "http://facebook.com/"
+  - title: "twitter"
+    url: "http://twitter.com/"
+  - title: "youtube"
+    url: "http://youtube.com/"
+  - title: "github"
+    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
+  - title: "rss"
+    url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+404-img: "/img/labtocat.png"
+
+################################################################################
+
+# Tread carefully if you want to change the variables below this point!
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+  Blog: 'blog'
+  Career: 'career'
+  Contact: 'contact'
+
+# Pagination path
+paginate_path: "blog/page:num"
+
+# Enable minification SASS
+sass:
+  style: compressed
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
