@@ -44,7 +44,7 @@ start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
   - text: "We're no strangers to love"
-  - text: "You know the rules and so do" I
+  - text: "You know the rules and so do I" I
   - text: "A full commitment's what I'm thinking of"
   - text: "You wouldn't get this from any other guy"
   - text: "I just wanna tell you how I'm feeling"
