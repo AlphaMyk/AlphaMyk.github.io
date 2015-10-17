@@ -1,6 +1,6 @@
 ![Build Status](https://travis-ci.org/AlphaMyk/AlphaMyk.github.io.svg?branch=master)
 
-# AlphaMyk - Based on { Personal } Jekyll Theme
+# AlphaMyk - Based on { Personal }
 
 AlphaMyk will be the personal site for Michael "Griff" Griffith.
 It is based upon { Personal }, a free responsive Jekyll theme about you.
