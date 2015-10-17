@@ -27,7 +27,7 @@ keywords: "griffith, michael, griff, alphamyk"
 # Intro layout #
 ################
 
-black-favicon: "/img/crest.png"
+black-favicon: "/img/crest_sm.png"
 background-img: "../img/intro-bg.jpg"
 me-img: "/img/griff.jpg"
 
