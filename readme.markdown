@@ -4,8 +4,10 @@
 
 AlphaMyk will be the personal site for Michael "Griff" Griffith.
 It is based upon { Personal }, a free responsive Jekyll theme about you.
-It's your personal blog and your point of reference website.
+
+{ Personal } is your personal blog and your point of reference website.
 You can watch it in action [here](http://panossakkos.github.io/personal-jekyll-theme/)!
+The personal-jekyll-theme repository can be found [here](https://github.com/PanosSakkos/personal-jekyll-theme)
 
 ## Value from { Personal }:
 
@@ -44,24 +46,6 @@ Want to get { Personal } without messing with jekyll installations and terminal 
 
 The theme contains documentation in the form of blog posts.
 Check it live [here](http://panossakkos.github.io/personal-jekyll-theme/blog/index.html)!
-
-## Screenshots
-### Intro page
-![Intro](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/index.jpg)
-###About
-![About](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/about.jpg)
-### Latest post preview
-![Blog](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/blog.jpg)
-### Life Events
-![Career](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/career.jpg)
-### Blog Archive
-![Archive](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/archive.jpg)
-### Post page
-![Post](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/post.jpg)
-### \#Tags
-![Tags](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/tags.jpg)
-### 404
-![404](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/404.jpg)
 
 ## How to run locally
 
