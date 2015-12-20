@@ -23,12 +23,14 @@ So now I was amused and had a little adventure to go on.
 Windows 8 was the key here. Since it was pre-installed on the box it had Secure Boot enabled. Also being a fairly recent system it was using UEFI to boot.
 
 A few things needed to happen:
+
 <pre style="text-align: left">
 1. The thumb drive I was trying to use didn't support UEFI, I needed to use [RUFUS](https://rufus.akeo.ie "RUFUS")
 2. I needed to disable Secure Boot in the BIOS
 3. I needed to enable CSM Boot (Compatibility Support Module)
 4. Needed to enable a boot menu in the BIOS to allow me to hit F12 to select the USB drive
 </pre>
+
 Once those were done, I was able to choose to boot off of the thumb drive and now have the old machine running Ubuntu 15.10.
 
 Until next time.
