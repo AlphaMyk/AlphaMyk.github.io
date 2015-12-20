@@ -5,6 +5,8 @@ title: Griff's UEFI Adventure
 category: tech
 tags: [ 'tech' ]
 ---
+<pre style="text-align: left">
+
 This amused me, so I figured I would share for my fellow tech folks.
 
 So I have an Gateway running Windows 8.1 computer about the size of a gaming console that served me well a few years back that I wanted to put linux on and turn into a gaming type console for the living room TV.
@@ -20,14 +22,20 @@ So now I was amused and had a little adventure to go on.
 
 Windows 8 was the key here. Since it was pre-installed on the box it had Secure Boot enabled. Also being a fairly recent system it was using UEFI to boot.
 
-A few things needed to happen.
+A few things needed to happen:
+
 1. The thumb drive I was trying to use didn't support UEFI
---* I needed to use [RUFUS] (https://rufus.akeo.ie/)
+
+--I needed to use [RUFUS] (https://rufus.akeo.ie/)
+
 2. I needed to disable Secure Boot in the BIOS
+
 3. I needed to enable CSM Boot (Compatibility Support Module)
+
 4. Needed to enable a boot menu in the BIOS to allow me to hit F12 to select the USB drive
 
 Once those were done, I was able to choose to boot off of the thumb drive and now have the old machine running Ubuntu 15.10.
 
 Until next time.
 -Cheers!
+</pre>
