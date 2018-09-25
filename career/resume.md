@@ -1,9 +1,9 @@
-## Michael "Griff" Griffith <br><small>griff@psmg.co</small>##
+## Michael "Griff" Griffith <br><small>griff@psmg.co</small> ##
 
 ### Objective ###
 To obtain a position within a company based upon my applicable skill set including but not limited to Software Development, Configuration Management, and Systems Administration for a mutually beneficial business relationship.
 
-### Summary ###
+### Summary
 I am a fast, eager learner who excels at troubleshooting and solving complex issues. My personal dedication and attention to detail are skills I am particularly proud of that foster my strong work ethic and ability to achieve and exceed goals
 
 ### Training ###
@@ -14,7 +14,7 @@ I am a fast, eager learner who excels at troubleshooting and solving complex iss
 - Quest Leadership Development Training, San Diego, 2013
 - Red Hat JBoss Application Administration, San Diego, 2010
 
-### Skills###
+### Skills ###
 **Languages**<br>
 Unix Shell scripting (sh/bash/csh/tcsh/ksh), Perl, Working knowledge of: HTML, CSS, Java, Javascript, Visual Basic
 
@@ -26,7 +26,7 @@ Linux (SUSE, RHEL, Fedora, CentOS, Ubuntu, Debian), HP-UX (10/11iv1-3), Solaris 
 GOLD, GOLDesp, AuRa, GV, Notepad ++, SQL Tools ++, vi, Microsoft Office, CVS, RCS, Bugzilla, JIRA, Git, GitHub, Subversion, ftp, jvisualVM, Jenkins, CruiseControl, telnet, ssh, scp, bash and various other shells, Apache Web Server, JBoss, Apache Tomcat, Ant, Oracle, MySql, Microsoft Visual Basic, Citrix, VMWare Products, CAS, Safari Web Reports, Pentaho, Joomla, WordPress, GIMP, Photoshop, Inkscape 
 
 
-### Experience###
+### Experience ###
 **Qualcomm (Cydio Group), San Diego, Ca April 2014 – Present**<br>
 **IT Engineer, Sr.**
 
